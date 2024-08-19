@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e28;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 350px;
+    background-color: #2a2a40;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.header {
+    background-color: #4a1e8a;
+    padding: 20px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #ffb400;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    color: #ccc;
+}
+
+button {
+    background-color: #ff0080;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff66a3;
+}
+
+/* Hidden by default */
+.hidden {
+    display: none;
+}
+
+#claimForm {
+    margin-top: 15px;
+}
+
+#claimForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    resize: none;
+}
+
+#claimForm button {
+    background-color: #ff0080;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#claimForm button:hover {
+    background-color: #ff66a3;
+}
+
+#jsonOutput {
+    font-size: 12px;
+    word-break: break-word;
+}
